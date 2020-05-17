@@ -1,0 +1,55 @@
+$accentColor = #1ba1ff
+$textColor = #2c3e50
+$borderColor = #eee
+$codeBgColor = #ddf1ff
+
+header-bgcolor = #fff
+header-color = #2c3e50
+font-size = 16px
+base-font = font-size "Avenir", Arial
+
+html
+  overflow-y scroll
+
+body
+  font base-font, sans-serif
+
+.home .hero .description
+  color: $textColor
+
+.search-box
+  display none
+
+.navbar
+  background-color header-bgcolor
+  color header-color
+
+.navbar .site-name
+  color header-color
+
+.nav-links a.router-link-active
+  color header-color
+  font-size 18px
+
+ol.publications li
+  margin-bottom 18px
+
+ol.publications dl dt
+  margin-bottom 8px
+  padding-bottom 8px
+  font-size 16px
+  border-bottom 1px dotted #eee
+
+ol.publications dl dt a
+  padding 0 8px
+  color white
+  background $textColor
+  opacity 0.2
+  border-radius 4px
+
+ol.publications dl dt a:hover
+  opacity 0.3
+
+ol.publications dl dd
+  color: #888
+  font-size 14px

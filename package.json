@@ -1,0 +1,15 @@
+{
+  "name": "thejustpark",
+  "version": "1.0.0",
+  "description": "Park Lab",
+  "author": "thejustpark",
+  "license" : "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}
