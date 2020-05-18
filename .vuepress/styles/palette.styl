@@ -15,6 +15,19 @@ html
   font base-font, sans-serif
   line-height 2
 
+h1,
+h2,
+h3,
+h4,
+h5,
+ol,
+ul,
+div.home
+  float left
+  width 100%
+  margin-bottom 12px
+  line-height 2 !important
+
 .home .hero .description
   color: $textColor
 
@@ -31,6 +44,18 @@ html
 .nav-links a.router-link-active
   color header-color
   font-size 18px
+
+div.home
+  padding-top 0
+
+div.home dl dt
+  float left
+  width 200px
+
+div.home dl dd
+  float right
+  width calc(100% - 240px)
+  margin 0
 
 ol.publications li
   position relative
@@ -73,6 +98,8 @@ ol.publications dl dd em
 
 ul.members
   float left
+  overflow hidden
+  width 100%
   margin-bottom 24px
 
 ul.members li,
@@ -116,3 +143,23 @@ ul.members dl dd span
   display inline
   color #888
   line-height 1.2
+
+@media screen and (max-width: 720px)
+  ul.members dl dd span,
+  ul.software dl dd span
+    display block
+    margin-top 24px
+    margin-left -120px
+
+  div.home
+    padding 0
+
+  div.home dl dt
+    float none
+    margin 0 auto
+    width 200px
+
+  div.home dl dd
+    float none
+    width auto
+    margin 0

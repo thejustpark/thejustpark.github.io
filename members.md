@@ -10,6 +10,18 @@ footer: © Park Lab. All rights reserved.
   <li>
     <dl>
       <dt>
+        <img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=lRnvneUAAAAJ&citpid=2">
+      </dt>
+      <dd>
+        <a href="https://publichealth.pitt.edu/home/directory/hyun-jung-park" target="_blank">Hyun Jung (HJ) Park</a>
+        <p>Ph.D. at Department of Human Genetics</p>
+        <span>Investigates large-scale behavior of molecular dynamics in human diseases using bioinformatics</span>
+      </dd>
+    </dl>
+  </li>
+  <li>
+    <dl>
+      <dt>
         <img src="https://www.publichealth.pitt.edu/Resources/FacultyAndStaff/images/Demirci_Fatma_Yesim.jpg">
       </dt>
       <dd>

@@ -208,7 +208,7 @@ footer: © Park Lab. All rights reserved.
     <dl>
       <dt><b>H. J. Parkˆ</b>, T. L. Williams</dt>
       <dd>A Fitness Distance Correlation Measure for Evolutionary Trees 1st Intl. Conference on Bioinformatics and Computational Biology (BiCoB), ser
-      <br><em>Lecture Notes in Computer Science, vol. 5462, pages 331342</em><a href="http://dx.doi.org/10.1007/978-3-642-00727-9_31" target="_blank">PDF</a></dd>
+      <br><em>Lecture Notes in Computer Science, vol. 5462, pages 331342</em><a href="http://dx.doi.org/10.1007/978-3-642-00727-9_31" target="_blank">e-print</a></dd>
     </dl>
   </li>
 </ol>
@@ -222,7 +222,7 @@ footer: © Park Lab. All rights reserved.
     <dl>
       <dt><b>H. J. Parkˆ</b>, S-J. Sul, T. L. Williams</dt>
       <dd>Large-Scale Analysis of Phylogenetic Search Behavior
-      <br><em>Advances in Computational Biology, H.R. Arabnia, ed., Springer, vol. 680, pages 35-42</em><a href="http://dx.doi.org/10.1007/978-1-4419-5913-3_5" target="_blank">PDF</a></dd>
+      <br><em>Advances in Computational Biology, H.R. Arabnia, ed., Springer, vol. 680, pages 35-42</em><a href="http://dx.doi.org/10.1007/978-1-4419-5913-3_5" target="_blank">e-print</a></dd>
     </dl>
   </li>
 </ol>

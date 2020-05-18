@@ -10,7 +10,7 @@ module.exports = {
   base: '/',
   dest: 'dist',
   title: 'Park lab',
-  description: 'Learn more',
+  description: 'Human Genetics at University of Pittsburgh',
   locales: {
     '/': {
       lang: 'en'
@@ -25,7 +25,6 @@ module.exports = {
       content: 'width=device-width, initial-scale=1'
     }
   ],
-  globalLayout: '/Layout.vue',
   themeConfig: {
     logo: '/img/logo.png',
     nav: [
