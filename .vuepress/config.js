@@ -1,4 +1,12 @@
 module.exports = {
+  head: [
+    [
+      'link', {
+        rel: 'icon',
+        href: '/img/favicon.png'
+      }
+    ]
+  ],
   base: '/',
   dest: 'dist',
   title: 'Park lab',
@@ -17,6 +25,7 @@ module.exports = {
       content: 'width=device-width, initial-scale=1'
     }
   ],
+  globalLayout: '/Layout.vue',
   themeConfig: {
     logo: '/img/logo.png',
     nav: [

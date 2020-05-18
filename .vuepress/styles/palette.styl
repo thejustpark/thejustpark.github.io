@@ -11,8 +11,9 @@ base-font = font-size "Avenir", Arial
 html
   overflow-y scroll
 
-body
+*
   font base-font, sans-serif
+  line-height 2
 
 .home .hero .description
   color: $textColor
@@ -32,6 +33,7 @@ body
   font-size 18px
 
 ol.publications li
+  position relative
   margin-bottom 18px
 
 ol.publications dl dt
@@ -40,16 +42,77 @@ ol.publications dl dt
   font-size 16px
   border-bottom 1px dotted #eee
 
-ol.publications dl dt a
-  padding 0 8px
-  color white
-  background $textColor
-  opacity 0.2
-  border-radius 4px
-
-ol.publications dl dt a:hover
-  opacity 0.3
+ol.publications dl dt b
+  font-weight bold
 
 ol.publications dl dd
+  margin-left 0
   color: #888
   font-size 14px
+
+ol.publications dl dd a,
+ol.publications dl dd em
+  display inline-block
+  line-height 1.2
+  margin-left 8px
+  padding 0 8px
+  color white
+  opacity 0.25
+  border-radius 4px
+
+ol.publications dl dd a
+  background $accentColor
+
+ol.publications dl dd a:hover
+  opacity 0.5
+
+ol.publications dl dd em
+  padding 2px 8px
+  font-size 14px
+  background $textColor
+
+ul.members
+  float left
+  margin-bottom 24px
+
+ul.members li,
+ul.software li
+  float left
+  margin-bottom 24px
+  list-style none
+  clear both
+
+ul.members dl dt
+  float left
+  width 100px
+  height 100px
+  background-color $accentColor
+  border-radius 50px
+  overflow hidden
+
+ul.software dl dt
+  float left
+  width 100px
+  height 100px
+  overflow hidden
+
+ul.members dl dt img,
+ul.software dl dt img
+  width 100px
+
+ul.members dl dd,
+ul.software dl dd
+  float left
+  width calc(100% - 120px)
+  margin-left 20px
+
+ul.members dl dd p,
+ul.software dl dd p
+  border-bottom 1px dotted #eee
+  margin-bottom 12px
+  padding-bottom 12px
+
+ul.members dl dd span
+  display inline
+  color #888
+  line-height 1.2
